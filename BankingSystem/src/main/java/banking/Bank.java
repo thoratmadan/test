@@ -19,7 +19,7 @@ public class Bank implements BankInterface {
 
 	public Long openCommercialAccount(Company company, int pin, double startingDeposit) {
 		Account account = new Account();
-		account.se
+
         return ;
 	}
 
