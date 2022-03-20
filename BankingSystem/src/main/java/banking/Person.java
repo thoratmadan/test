@@ -1,6 +1,6 @@
 package banking;
 
-public class Person extends AccounntHolder {
+public class Person extends AccountHolder {
     private String firstName;
     private String lastName;
     private int idNumber;
