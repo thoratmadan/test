@@ -4,8 +4,8 @@ public class ConsumerAccount extends Account {
 	public ConsumerAccount(Person person, Long accountNumber, int pin, double currentBalance) {
 		private Person person;
 
-	public CommercialAccount(Company company, Long accountNumber, int pin, double startingDeposit) {
-			super(company)
+	public ConsumerAccount(Person person, Long accountNumber, int pin, double startingDeposit) {
+			super(person,accountNumber, pin, startingDeposit);
 		}
 
 		/**

@@ -1,6 +1,6 @@
 package banking;
 
-public class Company  {
+public class Company extends AccounntHolder {
 	private String companyName;
 	private int taxId;
 

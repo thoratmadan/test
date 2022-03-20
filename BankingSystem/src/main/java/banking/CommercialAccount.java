@@ -13,8 +13,7 @@ public class CommercialAccount extends Account {
 	private List<Person> authorizedUsers;
 
 	public CommercialAccount(Company company, Long accountNumber, int pin, double startingDeposit) {
-		AccountHolder accountHolder = new AccountHolder(idNumber);
-		super(accountHolder,accountNumber, pin, startingDeposit);
+		super(company,accountNumber, pin, startingDeposit);
 	}
 
 	/**
