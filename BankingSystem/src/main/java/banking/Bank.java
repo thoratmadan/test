@@ -10,17 +10,17 @@ public class Bank implements BankInterface {
 	private LinkedHashMap<Long, Account> accounts;
 
 	public Bank() {
-		// complete the function
+		accounts = new LinkedHashMap<>();
 	}
 
 	private Account getAccount(Long accountNumber) {
-		// complete the function
-        return null;
+     return accounts.get(accountNumber);
 	}
 
 	public Long openCommercialAccount(Company company, int pin, double startingDeposit) {
-		// complete the function
-        return -1L;
+		Account account = new Account();
+		account.se
+        return ;
 	}
 
 	public Long openConsumerAccount(Person person, int pin, double startingDeposit) {
