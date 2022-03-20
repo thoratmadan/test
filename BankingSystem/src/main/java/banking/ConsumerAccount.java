@@ -1,27 +1,11 @@
 package banking;
 
 public class ConsumerAccount extends Account {
-	public ConsumerAccount(Person person, Long accountNumber, int pin, double currentBalance) {
-		private Person person;
+    private Person person;
 
-	public ConsumerAccount(Person person, Long accountNumber, int pin, double startingDeposit) {
-			super(person,accountNumber, pin, startingDeposit);
-		}
+    public ConsumerAccount(Person person, Long accountNumber, int pin, double startingDeposit) {
+        super(person, accountNumber, pin, startingDeposit);
+    }
 
-		/**
-		 * @param person The authorized user to add to the account.
-		 */
-		protected void addAuthorizedUser(Person person) {
-			this.authorizedUsers.add(person);
-		}
-
-		/**
-		 * @param person
-		 * @return true if person matches an authorized user in {@link #authorizedUsers}; otherwise, false.
-		 */
-		public boolean isAuthorizedUser(Person person) {
-			return this.authorizedUsers.contains(person);
-		}
-	}
 
 }
