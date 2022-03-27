@@ -12,7 +12,7 @@ import java.util.List;
 public class CommercialAccount extends Account {
 	private List<Person> authorizedUsers;
 
-	public CommercialAccount(Company company, Long accountNumber, int pin, double startingDeposit) {
+	public CommercialAccount(final Company company, final Long accountNumber,final int pin,final double startingDeposit) {
 		super(company, accountNumber, pin, startingDeposit);
 	}
 

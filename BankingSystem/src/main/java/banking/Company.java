@@ -11,6 +11,12 @@ public class Company extends AccountHolder {
         this.taxId = taxId;
     }
 
+    public Company(String companyName, int taxId) {
+        super();
+        this.companyName = companyName;
+        this.taxId = taxId;
+    }
+
     public String getCompanyName() {
         return this.companyName;
     }
